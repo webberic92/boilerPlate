@@ -1,6 +1,6 @@
 import {Component, OnInit} from "@angular/core";
 import {IPosts} from "../iPosts";
-import {APIserviceService } from "../apiservice.service";
+import {APIserviceService } from "../Services/apiservice.service";
 import { from } from 'rxjs';
 
 @Component({

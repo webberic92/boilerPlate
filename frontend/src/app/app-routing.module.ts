@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { TestAComponent } from './test-a/test-a.component';
-import { TestBComponent } from './test-b/test-b.component';
+import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+
 import { GetrequestComponent } from './getrequest/getrequest.component';
 import { HelloServerComponent } from '../app/hello-server/hello-server.component';
   import { from } from 'rxjs';
 const routes: Routes = [
-  { path: 'testA', component: TestAComponent },
-  { path: 'testB', component: TestBComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'getRequest', component: GetrequestComponent },
   { path: 'helloServer', component: HelloServerComponent },
 

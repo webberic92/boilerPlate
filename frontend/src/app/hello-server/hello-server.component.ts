@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Message} from "../Message";
-import {APIserviceService } from "../apiservice.service";
+import {APIserviceService } from "../Services/apiservice.service";
 import { from } from 'rxjs';
 
 
